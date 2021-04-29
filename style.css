@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none ;
+    box-sizing: border-box;
+  }
+
+  .box {
+    display:inline-block;
+    width: 100px;
+    height: 100px;
+    background:white;
+    color: black;
+  }
+
+  .block {
+    width: 80%;
+    margin: auto;
+  }
+
+  #block_1 {
+    height: 475px; 
+    border: black;
+    border-style: dotted;
+    background:white;
+  }
+
+  #block_2 {
+    margin-top: 25px;
+    height: 300px; 
+    border: black;
+    border-style: dotted;
+    background:white;
+  }
+
+  #block_3{
+    height: 300px;
+    margin-top: 25px;
+    border: black;
+    border-style: dotted;
+    background:white;
+  }
+
+  #block_4 {
+    position: relative;
+    height: 700px;
+    margin-top: 25px;
+    border: black;
+    border-style: dotted;
+    background:white;
+    margin-bottom: 25px;
+  }
+
+  #block_5 {
+    position: relative;
+    height: 700px;;
+    border: black;
+    border-style: dotted;
+    background:green;
+    margin-bottom: 25px;
+  }
+
+  #one {
+    position: relative;
+    top: 50px;
+    left: 100px;
+    border: red;
+    border-style: solid;
+  }
+
+  #two {
+    position: relative;
+    top: 175px;
+    left: 125px;
+    border: blue;
+    border-style: solid;
+  }
+
+  #three {
+  position: relative;
+  top: 300px;
+  left: 150px;
+  border: green;
+  border-style: solid;
+  }
+
+  #four {
+    position: relative;
+    top: 50px;
+    left: 100px;
+    background-color:yellow ;
+  }
+
+  #five {
+    position: relative;
+    top: 100px;
+    left: 50px;
+    background-color: wheat;
+  }
+
+  #six {
+    position: relative;
+    top: 150px;
+    left: 0px;
+    background-color:yellowgreen ;
+  }
+
+  #seven {
+    position: relative;
+    top: 50px;
+    left: 100px;
+    background-color:yellow ;
+  }
+
+  #eight {
+    z-index: 1;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    background-color: wheat;
+  }
+
+  #nine {
+    position: relative;
+    top: 150px;
+    left: 0px;
+    background-color:yellowgreen ;
+  }
+
+  #ten {
+    position:absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 90%;
+    height: 90%;
+    background-color: indianred;
+  }
+
+  #eleven {
+    position: absolute;
+    background-color: white;
+    top: 15%;
+    left: 10%;
+    width: 150px;
+    height: 150px;
+  }
+
+  #twelve {
+    position: absolute;
+    background-color: white;
+    top: 65%;
+    left: 75%;
+    width: 150px;
+    height: 150px;
+  }
+  
+  #scroll {
+    position:absolute;
+    width: 100%;
+    height: 90%;
+    background-color: white;
+    overflow:scroll;
+    padding-top: 1%;
+    border: orange;
+    border-style: solid;
+  }
+  
+  #text {
+    width: 100%;
+    text-align: center;
+  }
+  
+  h1 {
+    text-align:center;
+    color:white;
+  }
